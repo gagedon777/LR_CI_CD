@@ -1,13 +1,13 @@
-name: Python Checks # Имя нашего воркфлоу
+name: Python Checks 
 
 
 on:
   pull_request:
-    branches: [ "main", "master" ] # Запускать только при PR в эти ветки
+    branches: [ "main", "master" ]
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest # Используем свежий образ Ubuntu в облаке GitHub
+    runs-on: ubuntu-latest 
 
     steps:
       

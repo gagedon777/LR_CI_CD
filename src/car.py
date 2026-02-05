@@ -20,4 +20,4 @@ class Car:
             raise Exception("Не доедем жеж...")
         self._fuel_in_tank -= fuel_burned
         return self.get_current_fuel_level()
-#test for actions  1234567890
+#test for actions 234567898765
